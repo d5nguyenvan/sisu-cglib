@@ -11,7 +11,7 @@
 
   <groupId>org.sonatype.sisu.inject</groupId>
   <artifactId>cglib</artifactId>
-  <version>2.2.1-SNAPSHOT</version>
+  <version>2.2.1</version>
 
   <name>CGLIB</name>
 
