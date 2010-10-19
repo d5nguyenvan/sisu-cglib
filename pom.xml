@@ -54,7 +54,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <forgeReleaseUrl>https://repository.sonatype.org/service/local/staging/deploy/maven2</forgeReleaseUrl>
-    <asm.version>3.2</asm.version>
+    <asm.version>3.3</asm.version>
   </properties>
 
   <dependencies>
@@ -84,7 +84,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>3.8.2</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -93,10 +93,11 @@
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>2.3.1</version>
+        <version>2.3.2</version>
       </plugin>
       <plugin>
         <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.6</version>
         <configuration>
           <redirectTestOutputToFile>true</redirectTestOutputToFile>
           <test>TestAll</test>
@@ -116,7 +117,7 @@
       </plugin>
       <plugin>
         <artifactId>maven-release-plugin</artifactId>
-        <version>2.0</version>
+        <version>2.1</version>
       </plugin>
     </plugins>
   </build>
