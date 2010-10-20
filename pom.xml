@@ -30,7 +30,7 @@
   <scm>
     <connection>scm:git:git@github.com:sonatype/sisu-cglib.git</connection>
     <developerConnection>scm:git:git@github.com:sonatype/sisu-cglib.git</developerConnection>
-    <url>git@github.com:sonatype/sisu-cglib.git</url>
+    <url>http://github.com/sonatype/sisu-cglib</url>
   </scm>
 
   <issueManagement>
